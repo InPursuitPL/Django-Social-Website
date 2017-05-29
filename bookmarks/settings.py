@@ -17,7 +17,7 @@ SECRET_KEY = '19(1*immc(r%3h8bbttigeh7bond1-hp*zjpy&s-%kvz001%hh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mysite.com',]
 
 
 # Application definition
@@ -30,6 +30,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'social.apps.django_app.default',
 )
 
 MIDDLEWARE_CLASSES = (
